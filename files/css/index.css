@@ -16,7 +16,8 @@
 #visit-our-school {
     text-align: center;
     background-color: #eee;
-    padding: 80px;
+    /* changed for studio */
+    padding: 60px;
     margin-bottom: 2em;
 }
 
@@ -24,6 +25,8 @@
     text-align: left;
     margin-bottom: 2em;
     font-size: 1.25em;
+    /* changed for studio */
+    padding: 0px 15px 0px 15px
 }
 
 #visit-our-school a {
@@ -64,6 +67,10 @@
     text-align: left;
     color: white;
     font-size: 1.25em;
+    /* changed for studio */
+    &.classroom-news {
+        font-size: 2em;
+    }
 }
 
 .column a {
